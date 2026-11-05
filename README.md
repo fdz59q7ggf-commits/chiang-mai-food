@@ -1,6 +1,6 @@
 # 清邁・清萊美食總圖
 
-6 人清邁行程（2026/11/11–11/18，住長康路夜市旁）用的美食清單，共 **72 家**：米其林必比登 17 家、米其林推薦 4 家，其他是在地人氣店、市場和咖啡。
+6 人清邁行程（2026/11/11–11/18，住長康路夜市旁）用的美食清單，共 **73 家**：米其林必比登 17 家、米其林推薦 4 家，其他是在地人氣店、市場和咖啡。
 
 - 🌐 **網址**：https://fdz59q7ggf-commits.github.io/chiang-mai-food/
 - 🗺️ **互動總地圖**：打開 [`index.html`](index.html)，可以依區域、類型、米其林篩選；金框標記＝米其林
@@ -41,6 +41,7 @@
 | **Huan Soontaree 河畔泰北菜**<br>Huan Soontaree<br>เฮือนสุนทรี | 泰北菜 | 🍽️ 必比登 | 泰北前菜拼盤、炸魚釀豬肉 | 200～400 | 16:30-23:00（日休） | 晚餐（日休） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Huan%20Soontaree%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Huan%20Soontaree%20Chiang%20Mai&hl=th) |
 | **Woo 花園咖啡**<br>Woo Cafe & Art Gallery<br>วู คาเฟ่ | 咖啡甜點 | — | 甜點、花茶、泰式餐點 | 150～300 | 約10:00-22:00 | 下午茶 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Woo%20Cafe%20%26%20Art%20Gallery%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Woo%20Cafe%20%26%20Art%20Gallery%20Chiang%20Mai&hl=th) |
 | **Khao Soi Lam Duan（Faham）**<br>Khao Soi Lam Duan Faham<br>ข้าวซอยลำดวนฟ้าฮ่าม | Khao Soi/麵 | — | Khao Soi、Khanom Jeen | 50～80 | 早上～下午 | 早午餐 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Khao%20Soi%20Lam%20Duan%20Faham%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Khao%20Soi%20Lam%20Duan%20Faham%20Chiang%20Mai&hl=th) |
+| **Faham 泰式烤鍋吃到飽**<br>Faham Moo Krata<br>หมูกระทะ ฟ้าฮ่าม | 海鮮/火鍋 | — | 泰式烤鍋 Moo Krata：無限海鮮＋肉類＋蔬菜＋冰淇淋＋飲料 | 239 | 17:00-01:00 | 海鮮自助備案（Day2/Day4 晚餐） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Faham%20Moo%20Krata%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Faham%20Moo%20Krata%20Chiang%20Mai&hl=th) |
 
 ## 古城
 
@@ -57,7 +58,7 @@
 | **SP 烤雞**<br>SP Chicken<br>เอสพี ไก่ย่าง | 泰北菜 | — | 泰式烤雞、青木瓜沙拉 | 80～150 | 約10:00-17:00 | 午餐 | [📍 英文](https://www.google.com/maps/search/?api=1&query=SP%20Chicken%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=SP%20Chicken%20Chiang%20Mai&hl=th) |
 | **Huen Phen 泰北老店**<br>Huen Phen<br>เฮือนเพ็ญ | 泰北菜 | — | 泰北拼盤、Khao Soi、Gaeng Hang Lay | 150～300 | 午餐＋晚餐 | 午餐／晚餐 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Huen%20Phen%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Huen%20Phen%20Chiang%20Mai&hl=th) |
 | **Baan Landai 精緻泰北菜**<br>Baan Landai Fine Thai Cuisine<br>บ้านลานดาย | 精緻/氣氛 | ⭐ 米其林推薦 | 蘭納皇家料理 | 400～800 | 約11:00-22:00 | 11/17 告別晚宴（已排） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Baan%20Landai%20Fine%20Thai%20Cuisine%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Baan%20Landai%20Fine%20Thai%20Cuisine%20Chiang%20Mai&hl=th) |
-| **Kung Yim 烤大蝦吃到飽**<br>Kung Yim<br>กุ้งยิ้ม | 海鮮/火鍋 | — | 開背烤河蝦、鳳螺、魷魚 | 399～599 | 約17:00-23:00 | 晚餐 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Kung%20Yim%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Kung%20Yim%20Chiang%20Mai&hl=th) |
+| **Kung Yim 烤大蝦吃到飽**<br>Kung Yim<br>กุ้งยิ้ม | 海鮮/火鍋 | — | 開背烤河蝦、鳳螺、魷魚 | 399～599 | 約17:00-23:00 | 海鮮自助（行程選項） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Kung%20Yim%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Kung%20Yim%20Chiang%20Mai&hl=th) |
 | **週日步行街小吃**<br>Sunday Walking Street<br>ถนนคนเดินวันอาทิตย์ | 小吃/市場 | — | 香腸、烤雞、芒果糯米、炸豬皮 | 100～300 | 週日 16:00-23:00 | 11/15 晚餐（已排） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Sunday%20Walking%20Street%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Sunday%20Walking%20Street%20Chiang%20Mai&hl=th) |
 | **Kiti Panit 老洋房泰北菜**<br>Kiti Panit<br>กิติพานิช | 泰北菜 | — | 泰北咖哩、涼拌、烤肉 | 200～400 | 午餐＋晚餐 | 午餐／晚餐 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Kiti%20Panit%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Kiti%20Panit%20Chiang%20Mai&hl=th) |
 | **Lert Ros 烤魚**<br>Lert Ros<br>เลิศรส | 泰北菜 | — | 鹽烤魚、青木瓜沙拉、烤豬頸肉 | 80～200 | 午餐～傍晚 | 午餐 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Lert%20Ros%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Lert%20Ros%20Chiang%20Mai&hl=th) |
@@ -77,7 +78,7 @@
 
 | 店名 | 類型 | 米其林 | 必點 | 價格(銖/人) | 營業時間 | 行程 | 地圖 |
 |---|---|---|---|---|---|---|---|
-| **Big Big Shabu 海鮮吃到飽**<br>Big Big Shabu<br>บิ๊กบิ๊ก ชาบู | 海鮮/火鍋 | — | 活蝦、生蠔、火鍋燒烤吃到飽 | 220～399 | 約16:00-24:00 | 晚餐 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Big%20Big%20Shabu%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Big%20Big%20Shabu%20Chiang%20Mai&hl=th) |
+| **Big Big Shabu 海鮮吃到飽**<br>Big Big Shabu<br>บิ๊กบิ๊ก ชาบู | 海鮮/火鍋 | — | 活蝦、生蠔、火鍋燒烤吃到飽 | 220～399 | 約16:00-24:00 | 海鮮自助（行程選項） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Big%20Big%20Shabu%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Big%20Big%20Shabu%20Chiang%20Mai&hl=th) |
 | **週六步行街小吃**<br>Wualai Saturday Walking Street<br>ถนนคนเดินวัวลาย | 小吃/市場 | — | 烤肉串、泰北香腸、芒果糯米、椰子冰 | 100～300 | 週六 17:00-22:00 | 11/14 晚餐（已排） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Wualai%20Saturday%20Walking%20Street%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Wualai%20Saturday%20Walking%20Street%20Chiang%20Mai&hl=th) |
 | **Euang Kam Sai 百年泰北菜**<br>Euang Kam Sai<br>เอื้องคำสาย | 泰北菜 | 🍽️ 必比登 | 泰式米飯卷、泰北牛肉咖哩 | 150～300 | 11:00-21:00（一休） | 午餐／晚餐（一休） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Euang%20Kam%20Sai%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Euang%20Kam%20Sai%20Chiang%20Mai&hl=th) |
 | **清邁門夜市小吃**<br>Chiang Mai Gate Night Market<br>ตลาดประตูเชียงใหม่ | 小吃/市場 | — | 豬腳飯、芒果糯米、炸物、果汁 | 50～150 | 每天 傍晚～深夜 | 晚餐／宵夜 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Chiang%20Mai%20Gate%20Night%20Market%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Chiang%20Mai%20Gate%20Night%20Market%20Chiang%20Mai&hl=th) |
