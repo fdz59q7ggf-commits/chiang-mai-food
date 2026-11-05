@@ -1,6 +1,6 @@
 # 清邁・清萊美食總圖
 
-6 人清邁行程（2026/11/11–11/18，住長康路夜市旁）用的美食清單，共 **73 家**：米其林必比登 17 家、米其林推薦 4 家，其他是在地人氣店、市場和咖啡。
+6 人清邁行程（2026/11/11–11/18，住長康路夜市旁）用的美食清單，共 **76 家**：米其林必比登 17 家、米其林推薦 4 家，其他是在地人氣店、市場和咖啡。
 
 - 🌐 **網址**：https://fdz59q7ggf-commits.github.io/chiang-mai-food/
 - 🗺️ **互動總地圖**：打開 [`index.html`](index.html)，可以依區域、類型、米其林篩選；金框標記＝米其林
@@ -73,12 +73,14 @@
 | **Saiyut & Doctor Sai 皇家泰菜**<br>Saiyut & Doctor Sai Kitchen | 泰北菜 | 🍽️ 必比登 | 皇家前菜拼盤 | 200～400 | 10:00-21:00（三休；需預約） | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Saiyut%20%26%20Doctor%20Sai%20Kitchen%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Saiyut%20%26%20Doctor%20Sai%20Kitchen%20Chiang%20Mai&hl=th) |
 | **CHAWEE 私房泰菜**<br>CHAWEE | 精緻/氣氛 | 🍽️ 必比登 | 季節菜單、家傳食譜 | 300～500 | 11:00-15:00、17:00-21:00（二休，來源為二手資料） | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=CHAWEE%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=CHAWEE%20Chiang%20Mai&hl=th) |
 | **Magnolia 新派泰菜**<br>Magnolia Cafe<br>แมกโนเลีย คาเฟ่ | 精緻/氣氛 | 🍽️ 必比登 | 風乾魷魚配花生醬、烤豬頸肉 | 250～450 | 約17:00-22:00（資料不一，建議先訂位） | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Magnolia%20Cafe%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Magnolia%20Cafe%20Chiang%20Mai&hl=th) |
+| **Big Big Shabu 海鮮吃到飽（Sri Phum 古城東北）**<br>Big Big Shabu (Sri Phum)<br>บิ๊กบิ๊ก ชาบู | 海鮮自助 | — | 活蝦、生蠔、火鍋燒烤吃到飽 | 220～399 | 約16:00-04:00 | 海鮮自助（行程選項） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Big%20Big%20Shabu%20%28Sri%20Phum%29%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Big%20Big%20Shabu%20%28Sri%20Phum%29%20Chiang%20Mai&hl=th) |
+| **Big Big Shabu 海鮮吃到飽（Santitham／Chang Phuak Soi 4）**<br>Big Big Shabu (Santitham)<br>บิ๊กบิ๊ก ชาบู | 海鮮自助 | — | 活蝦、生蠔、火鍋燒烤吃到飽 | 220～399 | 約16:00-04:00（出發前確認） | 海鮮自助（行程選項） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Big%20Big%20Shabu%20%28Santitham%29%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Big%20Big%20Shabu%20%28Santitham%29%20Chiang%20Mai&hl=th) |
 
 ## 古城南/Wualai
 
 | 店名 | 類型 | 米其林 | 必點 | 價格(銖/人) | 營業時間 | 行程 | 地圖 |
 |---|---|---|---|---|---|---|---|
-| **Big Big Shabu 海鮮吃到飽**<br>Big Big Shabu<br>บิ๊กบิ๊ก ชาบู | 海鮮自助 | — | 活蝦、生蠔、火鍋燒烤吃到飽 | 220～399 | 約16:00-24:00 | 海鮮自助（行程選項） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Big%20Big%20Shabu%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Big%20Big%20Shabu%20Chiang%20Mai&hl=th) |
+| **Big Big Shabu 海鮮吃到飽（Khum Phaeng 古城南）**<br>Big Big Shabu<br>บิ๊กบิ๊ก ชาบู | 海鮮自助 | — | 活蝦、生蠔、火鍋燒烤吃到飽 | 220～399 | 約16:00-24:00 | 海鮮自助（行程選項） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Big%20Big%20Shabu%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Big%20Big%20Shabu%20Chiang%20Mai&hl=th) |
 | **週六步行街小吃**<br>Wualai Saturday Walking Street<br>ถนนคนเดินวัวลาย | 小吃/市場 | — | 烤肉串、泰北香腸、芒果糯米、椰子冰 | 100～300 | 週六 17:00-22:00 | 11/14 晚餐（已排） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Wualai%20Saturday%20Walking%20Street%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Wualai%20Saturday%20Walking%20Street%20Chiang%20Mai&hl=th) |
 | **Euang Kam Sai 百年泰北菜**<br>Euang Kam Sai<br>เอื้องคำสาย | 泰北菜 | 🍽️ 必比登 | 泰式米飯卷、泰北牛肉咖哩 | 150～300 | 11:00-21:00（一休） | 午餐／晚餐（一休） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Euang%20Kam%20Sai%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Euang%20Kam%20Sai%20Chiang%20Mai&hl=th) |
 | **清邁門夜市小吃**<br>Chiang Mai Gate Night Market<br>ตลาดประตูเชียงใหม่ | 小吃/市場 | — | 豬腳飯、芒果糯米、炸物、果汁 | 50～150 | 每天 傍晚～深夜 | 晚餐／宵夜 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Chiang%20Mai%20Gate%20Night%20Market%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Chiang%20Mai%20Gate%20Night%20Market%20Chiang%20Mai&hl=th) |
@@ -110,6 +112,7 @@
 | **Jing Jai 週末農夫市集**<br>Jing Jai Market<br>ตลาดจริงใจ | 小吃/市場 | — | 有機蔬果、早餐、咖啡、手作 | 100～250 | 週六、日 早上～中午 | 11/15 早上可選 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Jing%20Jai%20Market%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Jing%20Jai%20Market%20Chiang%20Mai&hl=th) |
 | **Dan 海南雞飯（San Sai）**<br>Dan Chicken Rice (San Sai)<br>ข้าวมันไก่แดน สันทราย | 小吃/市場 | 🍽️ 必比登 | 海南雞飯 | 50～200 | 約07:30-14:00（賣完即休，早點到） | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Dan%20Chicken%20Rice%20%28San%20Sai%29%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Dan%20Chicken%20Rice%20%28San%20Sai%29%20Chiang%20Mai&hl=th) |
 | **★ 康托克帝王餐 Khum Khantoke**<br>Khum Khantoke<br>คุ้มขันโตก | 泰北菜 | — | Khantoke 泰北帝王餐（矮桌拼盤）＋蘭納傳統舞蹈秀 | 570～1,000 | 約18:30-21:00（晚餐＋秀約19:15-20:15，需預約） | 待排（必去，晚餐） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Khum%20Khantoke%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Khum%20Khantoke%20Chiang%20Mai&hl=th) |
+| **Big Big Shabu 海鮮吃到飽（Phukam 環城路）**<br>Big Big Shabu (Phukam)<br>บิ๊กบิ๊ก ชาบู | 海鮮自助 | — | 活蝦、生蠔、火鍋燒烤吃到飽 | 220～399 | 資料顯示營業時間很長（出發前確認） | 海鮮自助（行程選項） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Big%20Big%20Shabu%20%28Phukam%29%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Big%20Big%20Shabu%20%28Phukam%29%20Chiang%20Mai&hl=th) |
 
 ## 清萊
 
