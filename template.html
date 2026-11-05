@@ -99,7 +99,7 @@ h1{margin:0 0 4px;font-size:22px}
 const SHOPS = /*SHOPS*/[];
 const HOME = {lat:18.783861, lng:99.002111, name:'🏠 民宿（長康路夜市旁）'};
 const CAT_HEX = {'泰北菜':'#c8553d','Khao Soi/麵':'#d4881c','小吃/市場':'#2e8b57','咖啡甜點':'#8b5a2b','海鮮/火鍋':'#3a7bd5','精緻/氣氛':'#8e44ad','素食':'#5f9e2f'};
-const AREAS = ['全部','夜市/長康路','古城','古城南/Wualai','寧曼','濱江區','郊區','清萊','清邁（位置未確認）'];
+const AREAS = ['全部','夜市/長康路','古城','古城南/Wualai','寧曼','濱江區','郊區','清萊','路途中','清邁（位置未確認）'];
 const CATS = ['全部類型','泰北菜','Khao Soi/麵','小吃/市場','咖啡甜點','海鮮/火鍋','精緻/氣氛','素食'];
 const MICS = ['全部店家','⭐ 米其林（全部）','必比登 Bib Gourmand','米其林推薦','在地人氣（非米其林）'];
 const MIC_LABEL = {'Bib Gourmand':'🍽️ 米其林必比登','米其林推薦':'⭐ 米其林推薦'};
@@ -166,7 +166,7 @@ function render(){
   });
   // 「全部」時只框清邁市區（清萊相距約180公里、郊區店家會把地圖縮太小）
   const onMap = vis.filter(s=>s.located);
-  const fit = area==='全部' ? onMap.filter(s=>s.area!=='清萊' && s.area!=='郊區') : onMap;
+  const fit = area==='全部' ? onMap.filter(s=>s.area!=='清萊' && s.area!=='郊區' && s.area!=='路途中') : onMap;
   const pts = (fit.length ? fit : onMap).map(s=>[s.lat,s.lng]).concat(area==='清萊'?[]:[[HOME.lat,HOME.lng]]);
   if (pts.length) map.fitBounds(L.latLngBounds(pts), {padding:[30,30], maxZoom:16});
 }
