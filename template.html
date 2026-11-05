@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>清邁清萊美食總圖</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+:root{--bg:#faf7f2;--paper:#fff;--ink:#2b2622;--muted:#7a6f66;--line:#e8e0d6;--accent:#c8553d;--accent-dim:#f7e3dd;
+  --t1:#2e8b57;--t2:#3a7bd5;--t3:#8e44ad;--t4:#c8553d;--home:#222;--gold:#e0a800;}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#1b1917;--paper:#262320;--ink:#eee6dd;--muted:#a89d92;--line:#3a3530;--accent:#e9785f;--accent-dim:#3a2621;--home:#eee;}}
+:root[data-theme="dark"]{--bg:#1b1917;--paper:#262320;--ink:#eee6dd;--muted:#a89d92;--line:#3a3530;--accent:#e9785f;--accent-dim:#3a2621;--home:#eee;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;}
+header{padding:16px;max-width:1200px;margin:0 auto}
+h1{margin:0 0 4px;font-size:22px}
+.sub{color:var(--muted);font-size:13px;margin:0}
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.chip{border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:999px;padding:5px 12px;font-size:13px;cursor:pointer}
+.chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.wrap{max-width:1200px;margin:0 auto;padding:0 16px 24px;display:grid;grid-template-columns:1fr 380px;gap:16px}
+#map,#gmap{height:calc(100vh - 210px);min-height:420px;border-radius:12px;border:1px solid var(--line)}
+#gmap{display:none;width:100%;background:var(--paper)}
+.mapside{display:flex;flex-direction:column;gap:8px}
+.views{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.views .note{font-size:12px;color:var(--muted)}
+.list{height:calc(100vh - 170px);min-height:420px;overflow:auto;display:flex;flex-direction:column;gap:8px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px;cursor:pointer}
+.card:hover,.card.sel{border-color:var(--accent)}
+.card h3{margin:0 0 2px;font-size:15px;display:flex;align-items:center;gap:6px}
+.num{flex:none;width:22px;height:22px;border-radius:50%;color:#fff;font-size:12px;display:inline-flex;align-items:center;justify-content:center;font-weight:700}
+.en{color:var(--muted);font-size:12px;margin:0 0 6px}
+.meta{font-size:13px;line-height:1.55}
+.tag{display:inline-block;font-size:11px;border-radius:6px;padding:1px 6px;background:var(--accent-dim);color:var(--accent);margin-right:4px}
+.links{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}
+.links a{font-size:12px;font-weight:600;text-decoration:none;color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:3px 10px}
+.trip{font-size:12px;color:var(--t1);margin-top:4px}
+.mic{display:inline-block;font-size:11px;font-weight:700;border-radius:6px;padding:1px 6px;margin-right:4px;background:#fff4cc;color:#8a6400;border:1px solid var(--gold)}
+.noloc{font-size:12px;color:var(--muted);margin-top:4px}
+.pin.mic-pin{border:3px solid var(--gold);box-shadow:0 0 0 2px rgba(224,168,0,.35),0 1px 4px rgba(0,0,0,.4)}
+.legend{font-size:12px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
+.pin{width:26px;height:26px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center}
+.pin span{transform:rotate(45deg);color:#fff;font-size:11px;font-weight:700}
+.leaflet-popup-content{font-size:13px;line-height:1.5}
+.leaflet-popup-content a{color:#c8553d;font-weight:600}
+/* 給司機看 */
+.links a.drv,.links button.drv{background:var(--accent);color:#fff;border:1px solid var(--accent);border-radius:999px;padding:3px 10px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit}
+#driver{position:fixed;inset:0;z-index:2000;background:var(--bg);display:none;flex-direction:column;overflow:auto}
+#driver.open{display:flex}
+#driver .dhead{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-bottom:1px solid var(--line)}
+#driver .dhead button{font-size:16px;padding:8px 16px;border-radius:999px;border:1px solid var(--line);background:var(--paper);color:var(--ink);cursor:pointer}
+#driver .dbody{padding:16px;max-width:900px;width:100%;margin:0 auto;display:flex;flex-direction:column;gap:10px}
+#driver .please{font-size:22px;color:var(--muted)}
+#driver .thname{font-size:clamp(30px,7vw,52px);font-weight:800;line-height:1.25}
+#driver .thnear{font-size:clamp(22px,5vw,32px);color:var(--accent);font-weight:700}
+#driver .thaddr{font-size:clamp(18px,4vw,24px);line-height:1.5}
+#driver .zh{font-size:14px;color:var(--muted)}
+#driver iframe{width:100%;height:50vh;min-height:300px;border:1px solid var(--line);border-radius:12px}
+#driver .big{display:block;text-align:center;font-size:20px;font-weight:700;text-decoration:none;color:#fff;background:var(--accent);border-radius:12px;padding:14px}
+@media (max-width:820px){.wrap{grid-template-columns:1fr}#map,#gmap{height:55vh}.list{height:auto}}
+</style>
+</head>
+<body>
+<header>
+  <h1>🍜 清邁・清萊美食總圖</h1>
+  <p class="sub">6 人清邁行程 2026/11/11–11/18 · 米其林必比登＋在地人氣 · 標記為概略位置，精確位置請點「Google 地圖」 · 價格、營業時間以現場為準</p>
+  <div class="filters" id="areaF"></div>
+  <div class="filters" id="catF"></div>
+  <div class="filters" id="micF"></div>
+  <div class="legend" id="legend"></div>
+</header>
+<div class="wrap">
+  <div class="mapside">
+    <div class="views" id="views">
+      <button class="chip on" data-view="all">🗺️ 總圖（英文街名）</button>
+      <button class="chip" data-view="google">📍 Google 地圖（英文）</button>
+      <span class="note" id="gnote">點清單或標記，切到 Google 地圖看該店周邊</span>
+    </div>
+    <div id="map"></div>
+    <iframe id="gmap" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google 地圖"></iframe>
+  </div>
+  <div class="list" id="list"></div>
+</div>
+<div id="driver" role="dialog" aria-modal="true">
+  <div class="dhead"><b>🛺 給司機看</b><button onclick="closeDriver()">關閉 ✕</button></div>
+  <div class="dbody">
+    <div class="please">กรุณาไปส่งที่นี่ครับ/ค่ะ 🙏</div>
+    <div class="thname" id="dName"></div>
+    <div class="thnear" id="dNear"></div>
+    <div class="thaddr" id="dAddr"></div>
+    <div class="zh" id="dZh"></div>
+    <iframe id="dMap" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="แผนที่"></iframe>
+    <a class="big" id="dOpen" target="_blank" rel="noopener">เปิดใน Google Maps（泰文導航）</a>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const SHOPS = /*SHOPS*/[];
+const HOME = {lat:18.783861, lng:99.002111, name:'🏠 民宿（長康路夜市旁）'};
+const CAT_HEX = {'泰北菜':'#c8553d','Khao Soi/麵':'#d4881c','小吃/市場':'#2e8b57','咖啡甜點':'#8b5a2b','海鮮/火鍋':'#3a7bd5','精緻/氣氛':'#8e44ad','素食':'#5f9e2f'};
+const AREAS = ['全部','夜市/長康路','古城','古城南/Wualai','寧曼','濱江區','郊區','清萊','清邁（位置未確認）'];
+const CATS = ['全部類型','泰北菜','Khao Soi/麵','小吃/市場','咖啡甜點','海鮮/火鍋','精緻/氣氛','素食'];
+const MICS = ['全部店家','⭐ 米其林（全部）','必比登 Bib Gourmand','米其林推薦','在地人氣（非米其林）'];
+const MIC_LABEL = {'Bib Gourmand':'🍽️ 米其林必比登','米其林推薦':'⭐ 米其林推薦'};
+let area='全部', cat='全部類型', mic='全部店家', selected=null;
+const esc = s => String(s||'').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+SHOPS.forEach((s,i)=> s.n = i+1);
+// 記住上次的篩選（只存在這支手機）
+try{ const f = JSON.parse(localStorage.getItem('food-filter')||'{}'); if(AREAS.includes(f.area)) area=f.area; if(CATS.includes(f.cat)) cat=f.cat; if(MICS.includes(f.mic)) mic=f.mic; }catch(e){}
+
+document.getElementById('legend').innerHTML =
+  Object.entries(CAT_HEX).map(([t,c])=>`<span><i style="background:${c}"></i>${t}</span>`).join('') +
+  '<span><i style="background:#fff;border:3px solid #e0a800;width:12px;height:12px"></i>金框＝米其林</span><span>⬛ 民宿</span>';
+
+function chips(id, opts, get, set){
+  const el = document.getElementById(id);
+  el.innerHTML = opts.map(o=>`<button class="chip ${o===get()?'on':''}" data-v="${o}">${o}</button>`).join('');
+  el.onclick = e => { const v = e.target.dataset.v; if(!v) return; set(v); render(); };
+}
+
+let map = null, layer = null;
+const markers = {};
+if (window.L) {
+  map = L.map('map', {scrollWheelZoom:true}).setView([HOME.lat, HOME.lng], 14);
+  // Esri World Street Map：免金鑰，泰國街道與地名以英文顯示
+  const esri = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {maxZoom:19, attribution:'Tiles &copy; Esri'}).addTo(map);
+  const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom:19, attribution:'&copy; OpenStreetMap'});
+  L.control.layers({'英文街名（Esri）': esri, '泰文街名（OpenStreetMap）': osm}).addTo(map);
+  L.marker([HOME.lat, HOME.lng], {icon: L.divIcon({className:'', html:'<div class="pin" style="background:#222"><span>🏠</span></div>', iconSize:[26,26], iconAnchor:[13,26]})})
+    .addTo(map).bindPopup('<b>'+HOME.name+'</b><br>住宿位置（概略）');
+  layer = L.layerGroup().addTo(map);
+} else {
+  document.getElementById('map').innerHTML = '<p style="padding:16px">地圖載入失敗（需要網路），仍可使用清單的 Google 地圖連結。</p>';
+}
+
+function popup(s){
+  return `<b>${s.n}. ${esc(s.zh)}</b><br><span style="color:#888">${esc(s.name)}</span><br>${MIC_LABEL[s.michelin]?MIC_LABEL[s.michelin]+'<br>':''}🍴 ${esc(s.dish)}<br>💰 ${esc(s.price)} 銖<br>🕒 ${esc(s.hours)}<br>
+    <a href="#" onclick="openDriver('${s.id}');return false;">🛺 給司機看</a> · <a href="${esc(s.gmap)}" target="_blank" rel="noopener">📍 Google 地圖</a>${s.klook?` · <a href="${esc(s.klook)}" target="_blank" rel="noopener">🎫 Klook</a>`:''}`;
+}
+
+function render(){
+  try{ localStorage.setItem('food-filter', JSON.stringify({area,cat,mic})); }catch(e){}
+  chips('areaF', AREAS, ()=>area, v=>area=v);
+  chips('catF', CATS, ()=>cat, v=>cat=v);
+  chips('micF', MICS, ()=>mic, v=>mic=v);
+  const micOk = s => mic==='全部店家' || (mic==='⭐ 米其林（全部）' && s.michelin!=='—') || (mic==='必比登 Bib Gourmand' && s.michelin==='Bib Gourmand') || (mic==='米其林推薦' && s.michelin==='米其林推薦') || (mic==='在地人氣（非米其林）' && s.michelin==='—');
+  const vis = SHOPS.filter(s => (area==='全部'||s.area===area) && (cat==='全部類型'||s.cat===cat) && micOk(s));
+  document.getElementById('list').innerHTML = vis.map(s=>`
+    <div class="card ${selected===s.id?'sel':''}" data-id="${s.id}">
+      <h3><span class="num" style="background:${CAT_HEX[s.cat]};${s.michelin!=='—'?'box-shadow:0 0 0 2px #e0a800':''}">${s.n}</span>${esc(s.zh)}</h3>
+      <p class="en">${esc(s.name)}${s.name_th?' · '+esc(s.name_th):''}</p>
+      <div class="meta">${MIC_LABEL[s.michelin]?`<span class="mic">${MIC_LABEL[s.michelin]}</span>`:''}<span class="tag">${esc(s.area)}</span><span class="tag">${esc(s.cat)}</span><br>
+        🍴 ${esc(s.dish)}<br>💰 ${esc(s.price)} 銖／人<br>🕒 ${esc(s.hours)}<br>📫 ${esc(s.addr)}<br>${esc(s.desc)}</div>
+      ${s.trip?`<div class="trip">🗓️ ${esc(s.trip)}</div>`:''}
+      ${s.located?'':'<div class="noloc">📍 地圖上沒有標記（位置未確認），請點「Google 地圖」查</div>'}
+      <div class="links">${s.name_th?`<button class="drv" data-drv="${s.id}">🛺 給司機看（泰文）</button>`:''}<a href="${esc(s.gmap)}" target="_blank" rel="noopener">📍 Google 地圖</a>${s.klook?`<a href="${esc(s.klook)}" target="_blank" rel="noopener">🎫 Klook 預約</a>`:''}</div>
+    </div>`).join('') || '<p class="sub">沒有符合條件的店家</p>';
+  document.querySelectorAll('.card').forEach(c => c.onclick = e => { if(e.target.dataset.drv){ openDriver(e.target.dataset.drv); return; } if(e.target.tagName==='A') return; focus(c.dataset.id); });
+  if (!map) return;
+  layer.clearLayers();
+  vis.filter(s=>s.located).forEach(s => {
+    const m = L.marker([s.lat, s.lng], {icon: L.divIcon({className:'', html:`<div class="pin${s.michelin!=='—'?' mic-pin':''}" style="background:${CAT_HEX[s.cat]}"><span>${s.n}</span></div>`, iconSize:[26,26], iconAnchor:[13,26], popupAnchor:[0,-24]})}).bindPopup(popup(s));
+    m.on('click', ()=>{ selected = s.id; highlight(); });
+    markers[s.id] = m; layer.addLayer(m);
+  });
+  // 「全部」時只框清邁市區（清萊相距約180公里、郊區店家會把地圖縮太小）
+  const onMap = vis.filter(s=>s.located);
+  const fit = area==='全部' ? onMap.filter(s=>s.area!=='清萊' && s.area!=='郊區') : onMap;
+  const pts = (fit.length ? fit : onMap).map(s=>[s.lat,s.lng]).concat(area==='清萊'?[]:[[HOME.lat,HOME.lng]]);
+  if (pts.length) map.fitBounds(L.latLngBounds(pts), {padding:[30,30], maxZoom:16});
+}
+function highlight(){
+  document.querySelectorAll('.card').forEach(c=>c.classList.toggle('sel', c.dataset.id===selected));
+  const c = document.querySelector(`.card[data-id="${selected}"]`); if (c) c.scrollIntoView({block:'nearest', behavior:'smooth'});
+}
+let view = 'all';
+function gq(s){ return s.name + (s.area==='清萊' ? ' Chiang Rai' : ' Chiang Mai'); }
+function gembed(s){
+  return 'https://maps.google.com/maps?q=' + encodeURIComponent(gq(s)) + '&hl=en&z=17&output=embed';
+}
+function showGoogle(){
+  const s = SHOPS.find(x=>x.id===selected) || SHOPS[0];
+  if (!selected) { selected = s.id; highlight(); }
+  const g = document.getElementById('gmap');
+  const src = gembed(s);
+  if (g.dataset.src !== src) { g.src = src; g.dataset.src = src; }
+  document.getElementById('gnote').textContent = 'Google 地圖（英文）：' + s.zh;
+}
+function setView(v){
+  view = v;
+  document.querySelectorAll('#views .chip').forEach(b=>b.classList.toggle('on', b.dataset.view===v));
+  document.getElementById('map').style.display = v==='all' ? '' : 'none';
+  document.getElementById('gmap').style.display = v==='google' ? 'block' : 'none';
+  if (v==='google') showGoogle();
+  else { document.getElementById('gnote').textContent = '點清單或標記，切到 Google 地圖看該店周邊'; if (map) map.invalidateSize(); }
+}
+document.getElementById('views').onclick = e => { const v = e.target.dataset.view; if (v) setView(v); };
+function focus(id){
+  selected = id; highlight();
+  if (view==='google') { showGoogle(); return; }
+  const s = SHOPS.find(x=>x.id===id);
+  if (map && markers[id] && s.located) { map.setView([s.lat, s.lng], 16); markers[id].openPopup(); }
+  else if (!s.located) setView('google');
+}
+function openDriver(id){
+  const s = SHOPS.find(x=>x.id===id); if(!s) return;
+  document.getElementById('dName').textContent = s.name_th;
+  document.getElementById('dNear').textContent = s.near_th ? '📍 ' + s.near_th : '';
+  document.getElementById('dAddr').textContent = s.addr_th || '';
+  document.getElementById('dZh').textContent = s.zh + '｜' + s.name;
+  const q = encodeURIComponent(gq(s));
+  document.getElementById('dMap').src = 'https://maps.google.com/maps?q=' + q + '&hl=th&z=17&output=embed';
+  document.getElementById('dOpen').href = s.gmap_th;
+  document.getElementById('driver').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeDriver(){
+  document.getElementById('driver').classList.remove('open');
+  document.getElementById('dMap').src = 'about:blank';
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', e => { if(e.key==='Escape') closeDriver(); });
+render();
+</script>
+</body>
+</html>
