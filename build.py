@@ -21,7 +21,7 @@ MIC = {'Bib Gourmand': '🍽️ 必比登', '米其林推薦': '⭐ 米其林推
 n_bib = sum(s['michelin'] == 'Bib Gourmand' for s in foods)
 n_sel = sum(s['michelin'] == '米其林推薦' for s in foods)
 md = ['# 清邁・清萊美食總圖', '',
-      f'6 人清邁行程（2026/11/11–11/18，住長康路夜市旁）用的美食清單，共 **{len(foods)} 家**：米其林必比登 {n_bib} 家、米其林推薦 {n_sel} 家，其他是在地人氣店、市場和咖啡。', '',
+      f'清邁・清萊美食清單，共 **{len(foods)} 家**：米其林必比登 {n_bib} 家、米其林推薦 {n_sel} 家，其他是在地人氣店、市場和咖啡。', '',
       '- 🌐 **網址**：https://fdz59q7ggf-commits.github.io/chiang-mai-food/',
       '- 🗺️ **互動總地圖**：打開 [`index.html`](index.html)，可以依區域、類型、米其林篩選；金框標記＝米其林',
       '- 🛺 **給司機看**：每家店都有「給司機看（泰文）」按鈕，大字泰文店名＋泰文 Google 地圖',
@@ -40,17 +40,16 @@ md = ['# 清邁・清萊美食總圖', '',
 for area in AREAS:
     rows = [s for s in foods if s['area'] == area]
     if not rows: continue
-    md += [f'## {area}', '', '| 店名 | 類型 | 米其林 | 必點 | 價格(銖/人) | 營業時間 | 行程 | 地圖 |', '|---|---|---|---|---|---|---|---|']
+    md += [f'## {area}', '', '| 店名 | 類型 | 米其林 | 必點 | 價格(銖/人) | 營業時間 | 地圖 |', '|---|---|---|---|---|---|---|']
     for s in rows:
         th = f"<br>{s['name_th']}" if s['name_th'] else ''
-        md.append(f"| **{s['zh']}**<br>{s['name']}{th} | {s['cat']} | {MIC[s['michelin']] or '—'} | {s['dish']} | {s['price']} | {s['hours']} | {s['trip'] or '—'} | [📍 英文]({s['gmap']})<br>[🛺 泰文]({s['gmap_th']}) |")
+        md.append(f"| **{s['zh']}**<br>{s['name']}{th} | {s['cat']} | {MIC[s['michelin']] or '—'} | {s['dish']} | {s['price']} | {s['hours']} | [📍 英文]({s['gmap']})<br>[🛺 泰文]({s['gmap_th']}) |")
     md.append('')
 md += ['## 資料來源', '',
        '- MICHELIN Guide Thailand 2026 Bib Gourmand 報導（Khaosod English、Chiang Mai Citylife）',
        '- Eating Thai Food、2foodtrippers、Will Fly for Food、Lonely Planet、Time Out Chiang Mai 等美食文章',
-       '- 原行程網頁「米其林＆美食清單」', '',
+       '',
        '## 相關網站', '',
-       '- 清邁行程規劃：https://github.com/fdz59q7ggf-commits/Chiang-Mai',
        '- 清邁按摩總圖：https://fdz59q7ggf-commits.github.io/chiang-mai-massage/', '',
        '## 更新方式', '', '編輯 `foods.json` 後執行 `python3 build.py`，會重新產生 README.md、food.kml、index.html。', '']
 (D / 'README.md').write_text('\n'.join(md), encoding='utf-8')
