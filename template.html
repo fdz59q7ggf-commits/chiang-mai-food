@@ -68,7 +68,7 @@ h1{margin:0 0 4px;font-size:22px}
 <body>
 <header>
   <h1>🍜 清邁・清萊美食總圖</h1>
-  <p class="sub">6 人清邁行程 2026/11/11–11/18 · 米其林必比登＋在地人氣 · 標記為概略位置，精確位置請點「Google 地圖」 · 價格、營業時間以現場為準</p>
+  <p class="sub">米其林必比登＋在地人氣 · 標記為概略位置，精確位置請點「Google 地圖」 · 價格、營業時間以現場為準</p>
   <div class="filters" id="areaF"></div>
   <div class="filters" id="catF"></div>
   <div class="filters" id="micF"></div>
@@ -101,7 +101,7 @@ h1{margin:0 0 4px;font-size:22px}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
 const SHOPS = /*SHOPS*/[];
-const HOME = {lat:18.783861, lng:99.002111, name:'🏠 民宿（長康路夜市旁）'};
+const HOME = {lat:18.7883, lng:98.9931};  // 地圖預設中心（清邁古城）
 const CAT_HEX = {'泰北菜':'#c8553d','Khao Soi/麵':'#d4881c','小吃/市場':'#2e8b57','咖啡甜點':'#8b5a2b','海鮮自助':'#3a7bd5','精緻/氣氛':'#8e44ad','素食':'#5f9e2f'};
 const AREAS = ['全部','夜市/長康路','古城','古城南/Wualai','寧曼','濱江區','郊區','清萊','路途中','清邁（位置未確認）'];
 const CATS = ['全部類型','泰北菜','Khao Soi/麵','小吃/市場','咖啡甜點','海鮮自助','精緻/氣氛','素食'];
@@ -115,7 +115,7 @@ try{ const f = JSON.parse(localStorage.getItem('food-filter')||'{}'); if(AREAS.i
 
 document.getElementById('legend').innerHTML =
   Object.entries(CAT_HEX).map(([t,c])=>`<span><i style="background:${c}"></i>${t}</span>`).join('') +
-  '<span><i style="background:#fff;border:3px solid #e0a800;width:12px;height:12px"></i>金框＝米其林</span><span>⬛ 民宿</span>';
+  '<span><i style="background:#fff;border:3px solid #e0a800;width:12px;height:12px"></i>金框＝米其林</span>';
 
 function chips(id, opts, get, set){
   const el = document.getElementById(id);
@@ -131,8 +131,6 @@ if (window.L) {
   const esri = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {maxZoom:19, attribution:'Tiles &copy; Esri'}).addTo(map);
   const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom:19, attribution:'&copy; OpenStreetMap'});
   L.control.layers({'英文街名（Esri）': esri, '泰文街名（OpenStreetMap）': osm}).addTo(map);
-  L.marker([HOME.lat, HOME.lng], {icon: L.divIcon({className:'', html:'<div class="pin" style="background:#222"><span>🏠</span></div>', iconSize:[26,26], iconAnchor:[13,26]})})
-    .addTo(map).bindPopup('<b>'+HOME.name+'</b><br>住宿位置（概略）');
   layer = L.layerGroup().addTo(map);
 } else {
   document.getElementById('map').innerHTML = '<p style="padding:16px">地圖載入失敗（需要網路），仍可使用清單的 Google 地圖連結。</p>';
@@ -156,7 +154,6 @@ function render(){
       <p class="en">${esc(s.name)}${s.name_th?' · '+esc(s.name_th):''}</p>
       <div class="meta">${MIC_LABEL[s.michelin]?`<span class="mic">${MIC_LABEL[s.michelin]}</span>`:''}<span class="tag">${esc(s.area)}</span><span class="tag">${esc(s.cat)}</span><br>
         🍴 ${esc(s.dish)}<br>💰 ${esc(s.price)} 銖／人<br>🕒 ${esc(s.hours)}<br>📫 ${esc(s.addr)}<br>${esc(s.desc)}</div>
-      ${s.trip?`<div class="trip">🗓️ ${esc(s.trip)}</div>`:''}
       ${s.located?'':'<div class="noloc">📍 地圖上沒有標記（位置未確認），請點「Google 地圖」查</div>'}
       <div class="links">${s.name_th?`<button class="drv" data-drv="${s.id}">🛺 給司機看（泰文）</button>`:''}<a href="${esc(s.gmap)}" target="_blank" rel="noopener">📍 Google 地圖</a>${s.klook?`<a href="${esc(s.klook)}" target="_blank" rel="noopener">🎫 Klook 預約</a>`:''}</div>
     </div>`).join('') || '<p class="sub">沒有符合條件的店家</p>';
@@ -171,7 +168,7 @@ function render(){
   // 「全部」時只框清邁市區（清萊相距約180公里、郊區店家會把地圖縮太小）
   const onMap = vis.filter(s=>s.located);
   const fit = area==='全部' ? onMap.filter(s=>s.area!=='清萊' && s.area!=='郊區' && s.area!=='路途中') : onMap;
-  const pts = (fit.length ? fit : onMap).map(s=>[s.lat,s.lng]).concat(area==='清萊'?[]:[[HOME.lat,HOME.lng]]);
+  const pts = (fit.length ? fit : onMap).map(s=>[s.lat,s.lng]);
   if (pts.length) map.fitBounds(L.latLngBounds(pts), {padding:[30,30], maxZoom:16});
 }
 function highlight(){
