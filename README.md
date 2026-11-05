@@ -1,6 +1,6 @@
 # 清邁・清萊美食總圖
 
-6 人清邁行程（2026/11/11–11/18，住長康路夜市旁）用的美食清單，共 **70 家**：米其林必比登 17 家、米其林推薦 4 家，其他是在地人氣店、市場和咖啡。
+6 人清邁行程（2026/11/11–11/18，住長康路夜市旁）用的美食清單，共 **71 家**：米其林必比登 17 家、米其林推薦 4 家，其他是在地人氣店、市場和咖啡。
 
 - 🌐 **網址**：https://fdz59q7ggf-commits.github.io/chiang-mai-food/
 - 🗺️ **互動總地圖**：打開 [`index.html`](index.html)，可以依區域、類型、米其林篩選；金框標記＝米其林
@@ -20,7 +20,7 @@
 | Gaeng Hang Lay 豬肉咖哩 | 緬甸風、不辣、帶薑和羅望子的燉豬肉 | Aroon Rai、Huen Phen |
 | Khao Kha Moo 豬腳飯 | 滷豬腳配酸菜、滷蛋 | 北門牛仔帽阿姨、清邁門夜市 |
 | Gai Yang 炭烤雞 | 配青木瓜沙拉、糯米飯 | SP Chicken、Cherng Doi |
-| Khantoke 帝王餐 | 矮桌上一整桌泰北菜＋傳統舞蹈 | 老清邁文化中心（一日遊選單「輕鬆日」） |
+| Khantoke 帝王餐 | 矮桌上一整桌泰北菜＋傳統舞蹈 | ★ Khum Khantoke（必去，晚餐秀）、老清邁文化中心 |
 
 ## 夜市/長康路
 
@@ -107,6 +107,7 @@
 | **Gongkham 泰北菜**<br>Gongkham Maerim<br>ก้องคำ แม่ริม | 泰北菜 | 🍽️ 必比登 | 青辣椒醬配炸豬肝、泰北香腸 | 150～300 | 09:00-21:00 | 湄林一日遊午餐 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Gongkham%20Maerim%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Gongkham%20Maerim%20Chiang%20Mai&hl=th) |
 | **Jing Jai 週末農夫市集**<br>Jing Jai Market<br>ตลาดจริงใจ | 小吃/市場 | — | 有機蔬果、早餐、咖啡、手作 | 100～250 | 週六、日 早上～中午 | 11/15 早上可選 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Jing%20Jai%20Market%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Jing%20Jai%20Market%20Chiang%20Mai&hl=th) |
 | **Dan 海南雞飯（San Sai）**<br>Dan Chicken Rice (San Sai)<br>ข้าวมันไก่แดน สันทราย | 小吃/市場 | 🍽️ 必比登 | 海南雞飯 | 50～200 | 約07:30-14:00（賣完即休，早點到） | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Dan%20Chicken%20Rice%20%28San%20Sai%29%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Dan%20Chicken%20Rice%20%28San%20Sai%29%20Chiang%20Mai&hl=th) |
+| **★ 康托克帝王餐 Khum Khantoke**<br>Khum Khantoke<br>คุ้มขันโตก | 泰北菜 | — | Khantoke 泰北帝王餐（矮桌拼盤）＋蘭納傳統舞蹈秀 | 570～1,000 | 約18:30-21:00（晚餐＋秀約19:15-20:15，需預約） | 待排（必去，晚餐） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Khum%20Khantoke%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Khum%20Khantoke%20Chiang%20Mai&hl=th) |
 
 ## 清萊
 

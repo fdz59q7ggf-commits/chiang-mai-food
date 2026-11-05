@@ -1538,5 +1538,27 @@
   "name_only_search": true,
   "located": true,
   "addr_th": ""
+ },
+ {
+  "id": "khum-khantoke",
+  "name": "Khum Khantoke",
+  "zh": "★ 康托克帝王餐 Khum Khantoke",
+  "area": "郊區",
+  "cat": "泰北菜",
+  "michelin": "—",
+  "tier": "中價",
+  "dish": "Khantoke 泰北帝王餐（矮桌拼盤）＋蘭納傳統舞蹈秀",
+  "addr": "139 Nong Pa Khrang（Big C Extra 後方巷內）",
+  "hours": "約18:30-21:00（晚餐＋秀約19:15-20:15，需預約）",
+  "price": "570～1,000",
+  "lat": 18.761,
+  "lng": 99.017,
+  "desc": "清邁最經典的 Khantoke 晚餐秀，必去；可在 Klook／漫清邁訂票含接送（座標為概略位置）",
+  "trip": "待排（必去，晚餐）",
+  "name_th": "คุ้มขันโตก",
+  "near_th": "หนองป่าครั่ง เมืองเชียงใหม่",
+  "name_only_search": true,
+  "located": true,
+  "addr_th": ""
  }
 ]
