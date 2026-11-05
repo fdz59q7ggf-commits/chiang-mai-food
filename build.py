@@ -36,7 +36,7 @@ md = ['# 清邁・清萊美食總圖', '',
       '| Gaeng Hang Lay 豬肉咖哩 | 緬甸風、不辣、帶薑和羅望子的燉豬肉 | Aroon Rai、Huen Phen |',
       '| Khao Kha Moo 豬腳飯 | 滷豬腳配酸菜、滷蛋 | 北門牛仔帽阿姨、清邁門夜市 |',
       '| Gai Yang 炭烤雞 | 配青木瓜沙拉、糯米飯 | SP Chicken、Cherng Doi |',
-      '| Khantoke 帝王餐 | 矮桌上一整桌泰北菜＋傳統舞蹈 | 老清邁文化中心（一日遊選單「輕鬆日」） |', '']
+      '| Khantoke 帝王餐 | 矮桌上一整桌泰北菜＋傳統舞蹈 | ★ Khum Khantoke（必去，晚餐秀）、老清邁文化中心 |', '']
 for area in AREAS:
     rows = [s for s in foods if s['area'] == area]
     if not rows: continue

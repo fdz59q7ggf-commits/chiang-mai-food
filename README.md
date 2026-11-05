@@ -1,6 +1,6 @@
 # 清邁・清萊美食總圖
 
-6 人清邁行程（2026/11/11–11/18，住長康路夜市旁）用的美食清單，共 **70 家**：米其林必比登 17 家、米其林推薦 4 家，其他是在地人氣店、市場和咖啡。
+6 人清邁行程（2026/11/11–11/18，住長康路夜市旁）用的美食清單，共 **72 家**：米其林必比登 17 家、米其林推薦 4 家，其他是在地人氣店、市場和咖啡。
 
 - 🌐 **網址**：https://fdz59q7ggf-commits.github.io/chiang-mai-food/
 - 🗺️ **互動總地圖**：打開 [`index.html`](index.html)，可以依區域、類型、米其林篩選；金框標記＝米其林
@@ -20,14 +20,14 @@
 | Gaeng Hang Lay 豬肉咖哩 | 緬甸風、不辣、帶薑和羅望子的燉豬肉 | Aroon Rai、Huen Phen |
 | Khao Kha Moo 豬腳飯 | 滷豬腳配酸菜、滷蛋 | 北門牛仔帽阿姨、清邁門夜市 |
 | Gai Yang 炭烤雞 | 配青木瓜沙拉、糯米飯 | SP Chicken、Cherng Doi |
-| Khantoke 帝王餐 | 矮桌上一整桌泰北菜＋傳統舞蹈 | 老清邁文化中心（一日遊選單「輕鬆日」） |
+| Khantoke 帝王餐 | 矮桌上一整桌泰北菜＋傳統舞蹈 | ★ Khum Khantoke（必去，晚餐秀）、老清邁文化中心 |
 
 ## 夜市/長康路
 
 | 店名 | 類型 | 米其林 | 必點 | 價格(銖/人) | 營業時間 | 行程 | 地圖 |
 |---|---|---|---|---|---|---|---|
 | **Lemongrass 泰式餐廳**<br>Lemongrass Thai Cuisine<br>ร้านอาหารเลมอนกราส | 泰北菜 | — | Khao Soi、香蕉捲 | 150～250 | 約10:00-22:00 | 11/11 午餐（已排） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Lemongrass%20Thai%20Cuisine%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Lemongrass%20Thai%20Cuisine%20Chiang%20Mai&hl=th) |
-| **Anusarn 夜市美食區**<br>Anusarn Market<br>ตลาดอนุสาร | 小吃/市場 | — | 海鮮燒烤、泰式小吃、芒果糯米 | 100～300 | 約17:00-23:00 | 11/11、11/16 晚餐 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Anusarn%20Market%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Anusarn%20Market%20Chiang%20Mai&hl=th) |
+| **Anusarn 夜市美食區**<br>Anusarn Market<br>ตลาดอนุสาร | 小吃/市場 | — | 海鮮燒烤、泰式小吃、芒果糯米 | 100～300 | 約17:00-23:00 | 11/16 晚餐 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Anusarn%20Market%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Anusarn%20Market%20Chiang%20Mai&hl=th) |
 | **Kalare 夜市美食廣場**<br>Kalare Night Bazaar Food Court<br>กาแลไนท์บาซาร์ | 小吃/市場 | — | 泰式熱炒、Khao Soi、果汁 | 80～200 | 約17:00-23:00 | 夜市晚餐備案 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Kalare%20Night%20Bazaar%20Food%20Court%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Kalare%20Night%20Bazaar%20Food%20Court%20Chiang%20Mai&hl=th) |
 | **Khao Soi Islam（回教 Khao Soi）**<br>Khao Soi Islam<br>ข้าวซอยอิสลาม | Khao Soi/麵 | — | 雞肉／牛肉 Khao Soi、香料飯 Biryani | 60～120 | 約08:00-17:00 | 早午餐 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Khao%20Soi%20Islam%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Khao%20Soi%20Islam%20Chiang%20Mai&hl=th) |
 | **Ploen Ruedee 夜市美食廣場**<br>Ploen Ruedee Night Market<br>ตลาดเพลินฤดี | 小吃/市場 | — | 各國小吃、精釀啤酒、現場音樂 | 100～300 | 約週一～六 傍晚～23:00 | 晚上宵夜／小酌 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Ploen%20Ruedee%20Night%20Market%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Ploen%20Ruedee%20Night%20Market%20Chiang%20Mai&hl=th) |
@@ -96,6 +96,7 @@
 | **Tong Tem Toh 泰北菜**<br>Tong Tem Toh<br>ต๋อง เต็ม โต๊ะ | 泰北菜 | — | 泰北香腸、辣椒醬配蔬菜、烤豬頸肉、糯米飯 | 100～250 | 約10:00-22:00 | 11/12 晚餐 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Tong%20Tem%20Toh%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Tong%20Tem%20Toh%20Chiang%20Mai&hl=th) |
 | **Cherng Doi 炭烤雞**<br>Cherng Doi Roast Chicken<br>เชิงดอย ไก่ย่าง | 泰北菜 | — | 炭烤雞、青木瓜沙拉、糯米飯 | 100～200 | 午餐～傍晚 | 午餐／早晚餐 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Cherng%20Doi%20Roast%20Chicken%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Cherng%20Doi%20Roast%20Chicken%20Chiang%20Mai&hl=th) |
 | **Pun Pun 素食（Wat Suan Dok）**<br>Pun Pun Vegetarian<br>ปันปัน | 素食 | — | 素 Khao Soi、有機蔬食 | 80～150 | 約08:00-16:00 | 午餐 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Pun%20Pun%20Vegetarian%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Pun%20Pun%20Vegetarian%20Chiang%20Mai&hl=th) |
+| **★ Kiew Kai Ka 北泰料理**<br>Kiew Kai Ka (One Nimman)<br>เขียวไข่กา | 泰北菜 | — | 北泰料理招牌菜（店家以米其林推薦菜色為賣點） | 200～400 | 每日 11:00-22:00 | 11/11 晚餐（必去） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Kiew%20Kai%20Ka%20%28One%20Nimman%29%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Kiew%20Kai%20Ka%20%28One%20Nimman%29%20Chiang%20Mai&hl=th) |
 
 ## 郊區
 
@@ -107,6 +108,7 @@
 | **Gongkham 泰北菜**<br>Gongkham Maerim<br>ก้องคำ แม่ริม | 泰北菜 | 🍽️ 必比登 | 青辣椒醬配炸豬肝、泰北香腸 | 150～300 | 09:00-21:00 | 湄林一日遊午餐 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Gongkham%20Maerim%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Gongkham%20Maerim%20Chiang%20Mai&hl=th) |
 | **Jing Jai 週末農夫市集**<br>Jing Jai Market<br>ตลาดจริงใจ | 小吃/市場 | — | 有機蔬果、早餐、咖啡、手作 | 100～250 | 週六、日 早上～中午 | 11/15 早上可選 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Jing%20Jai%20Market%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Jing%20Jai%20Market%20Chiang%20Mai&hl=th) |
 | **Dan 海南雞飯（San Sai）**<br>Dan Chicken Rice (San Sai)<br>ข้าวมันไก่แดน สันทราย | 小吃/市場 | 🍽️ 必比登 | 海南雞飯 | 50～200 | 約07:30-14:00（賣完即休，早點到） | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Dan%20Chicken%20Rice%20%28San%20Sai%29%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Dan%20Chicken%20Rice%20%28San%20Sai%29%20Chiang%20Mai&hl=th) |
+| **★ 康托克帝王餐 Khum Khantoke**<br>Khum Khantoke<br>คุ้มขันโตก | 泰北菜 | — | Khantoke 泰北帝王餐（矮桌拼盤）＋蘭納傳統舞蹈秀 | 570～1,000 | 約18:30-21:00（晚餐＋秀約19:15-20:15，需預約） | 待排（必去，晚餐） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Khum%20Khantoke%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Khum%20Khantoke%20Chiang%20Mai&hl=th) |
 
 ## 清萊
 
