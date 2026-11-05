@@ -1,6 +1,6 @@
 # 清邁・清萊美食總圖
 
-6 人清邁行程（2026/11/11–11/18，住長康路夜市旁）用的美食清單，共 **72 家**：米其林必比登 22 家、米其林推薦 4 家，其他是在地人氣店、市場和咖啡。
+6 人清邁行程（2026/11/11–11/18，住長康路夜市旁）用的美食清單，共 **70 家**：米其林必比登 17 家、米其林推薦 4 家，其他是在地人氣店、市場和咖啡。
 
 - 🌐 **網址**：https://fdz59q7ggf-commits.github.io/chiang-mai-food/
 - 🗺️ **互動總地圖**：打開 [`index.html`](index.html)，可以依區域、類型、米其林篩選；金框標記＝米其林
@@ -31,6 +31,7 @@
 | **Kalare 夜市美食廣場**<br>Kalare Night Bazaar Food Court<br>กาแลไนท์บาซาร์ | 小吃/市場 | — | 泰式熱炒、Khao Soi、果汁 | 80～200 | 約17:00-23:00 | 夜市晚餐備案 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Kalare%20Night%20Bazaar%20Food%20Court%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Kalare%20Night%20Bazaar%20Food%20Court%20Chiang%20Mai&hl=th) |
 | **Khao Soi Islam（回教 Khao Soi）**<br>Khao Soi Islam<br>ข้าวซอยอิสลาม | Khao Soi/麵 | — | 雞肉／牛肉 Khao Soi、香料飯 Biryani | 60～120 | 約08:00-17:00 | 早午餐 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Khao%20Soi%20Islam%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Khao%20Soi%20Islam%20Chiang%20Mai&hl=th) |
 | **Ploen Ruedee 夜市美食廣場**<br>Ploen Ruedee Night Market<br>ตลาดเพลินฤดี | 小吃/市場 | — | 各國小吃、精釀啤酒、現場音樂 | 100～300 | 約週一～六 傍晚～23:00 | 晚上宵夜／小酌 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Ploen%20Ruedee%20Night%20Market%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Ploen%20Ruedee%20Night%20Market%20Chiang%20Mai&hl=th) |
+| **Rasik 新派泰菜**<br>Rasik Local Kitchen | 精緻/氣氛 | 🍽️ 必比登 | 烤牛骨髓配南薑醬 | 300～500 | 17:00-22:00（二休；需訂位，僅14-16席） | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Rasik%20Local%20Kitchen%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Rasik%20Local%20Kitchen%20Chiang%20Mai&hl=th) |
 
 ## 濱江區
 
@@ -65,6 +66,12 @@
 | **Somphet 早市**<br>Somphet Market<br>ตลาดสมเพชร | 小吃/市場 | — | 粥、糯米飯、熟食、水果 | 40～100 | 早上～傍晚（早上最熱鬧） | 早餐 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Somphet%20Market%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Somphet%20Market%20Chiang%20Mai&hl=th) |
 | **Jok Somphet 豬肉粥**<br>Jok Somphet<br>โจ๊กสมเพชร | 小吃/市場 | — | 豬肉粥 Jok、油條 | 40～80 | 早上～深夜 | 早餐／宵夜 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Jok%20Somphet%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Jok%20Somphet%20Chiang%20Mai&hl=th) |
 | **Fern Forest 森林咖啡**<br>Fern Forest Cafe<br>เฟิร์น ฟอเรสต์ คาเฟ่ | 咖啡甜點 | — | 蛋糕、早午餐、咖啡 | 120～250 | 約08:30-20:30 | 下午茶 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Fern%20Forest%20Cafe%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Fern%20Forest%20Cafe%20Chiang%20Mai&hl=th) |
+| **Nam Ngiao Yong 泰北米線**<br>Nam Ngiao Yong<br>น้ำเงี้ยวยง | Khao Soi/麵 | ⭐ 米其林推薦 | Khanom Jeen Nam Ngiao 番茄排骨湯米線 | 50～80 | 每日 08:00-17:30 | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Nam%20Ngiao%20Yong%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Nam%20Ngiao%20Yong%20Chiang%20Mai&hl=th) |
+| **Neng 甕烤豬**<br>Neng Earthen Jar Roast Pork | 泰北菜 | — | 甕烤豬、Nam Tok Moo、泰北香腸 | 80～150 | 午餐～傍晚（出發前確認） | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Neng%20Earthen%20Jar%20Roast%20Pork%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Neng%20Earthen%20Jar%20Roast%20Pork%20Chiang%20Mai&hl=th) |
+| **Busarin Cuisine**<br>Busarin Cuisine | 小吃/市場 | 🍽️ 必比登 | 泰式家常菜 | 50～200 | 週一～六 11:00-15:00（資料不一，出發前確認） | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Busarin%20Cuisine%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Busarin%20Cuisine%20Chiang%20Mai&hl=th) |
+| **Saiyut & Doctor Sai 皇家泰菜**<br>Saiyut & Doctor Sai Kitchen | 泰北菜 | 🍽️ 必比登 | 皇家前菜拼盤 | 200～400 | 10:00-21:00（三休；需預約） | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Saiyut%20%26%20Doctor%20Sai%20Kitchen%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Saiyut%20%26%20Doctor%20Sai%20Kitchen%20Chiang%20Mai&hl=th) |
+| **CHAWEE 私房泰菜**<br>CHAWEE | 精緻/氣氛 | 🍽️ 必比登 | 季節菜單、家傳食譜 | 300～500 | 11:00-15:00、17:00-21:00（二休，來源為二手資料） | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=CHAWEE%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=CHAWEE%20Chiang%20Mai&hl=th) |
+| **Magnolia 新派泰菜**<br>Magnolia Cafe<br>แมกโนเลีย คาเฟ่ | 精緻/氣氛 | 🍽️ 必比登 | 風乾魷魚配花生醬、烤豬頸肉 | 250～450 | 約17:00-22:00（資料不一，建議先訂位） | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Magnolia%20Cafe%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Magnolia%20Cafe%20Chiang%20Mai&hl=th) |
 
 ## 古城南/Wualai
 
@@ -99,6 +106,7 @@
 | **Krua Lawng Khao 泰北家常菜**<br>Krua Lawng Khao<br>ครัวลองข้าว | 泰北菜 | 🍽️ 必比登 | 泰北家常菜 | 150～300 | 午餐為主 | 湄林一日遊午餐 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Krua%20Lawng%20Khao%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Krua%20Lawng%20Khao%20Chiang%20Mai&hl=th) |
 | **Gongkham 泰北菜**<br>Gongkham Maerim<br>ก้องคำ แม่ริม | 泰北菜 | 🍽️ 必比登 | 青辣椒醬配炸豬肝、泰北香腸 | 150～300 | 09:00-21:00 | 湄林一日遊午餐 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Gongkham%20Maerim%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Gongkham%20Maerim%20Chiang%20Mai&hl=th) |
 | **Jing Jai 週末農夫市集**<br>Jing Jai Market<br>ตลาดจริงใจ | 小吃/市場 | — | 有機蔬果、早餐、咖啡、手作 | 100～250 | 週六、日 早上～中午 | 11/15 早上可選 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Jing%20Jai%20Market%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Jing%20Jai%20Market%20Chiang%20Mai&hl=th) |
+| **Dan 海南雞飯（San Sai）**<br>Dan Chicken Rice (San Sai)<br>ข้าวมันไก่แดน สันทราย | 小吃/市場 | 🍽️ 必比登 | 海南雞飯 | 50～200 | 約07:30-14:00（賣完即休，早點到） | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Dan%20Chicken%20Rice%20%28San%20Sai%29%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Dan%20Chicken%20Rice%20%28San%20Sai%29%20Chiang%20Mai&hl=th) |
 
 ## 清萊
 
@@ -113,26 +121,16 @@
 | **媽卡江溫泉蛋**<br>Mae Kachan Hot Spring<br>บ่อน้ำพุร้อนแม่ขะจาน | 小吃/市場 | — | 溫泉蛋、烤玉米 | 20～60 | 每日約07:00-19:00 | 11/13（已排） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Mae%20Kachan%20Hot%20Spring%20Chiang%20Rai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Mae%20Kachan%20Hot%20Spring%20Chiang%20Rai&hl=th) |
 | **Doi Chaang 清萊咖啡**<br>Doi Chaang Coffee<br>ดอยช้าง คอฟฟี่ | 咖啡甜點 | — | 阿卡族山區咖啡 | 60～120 | 約07:00-18:00 | 下午 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Doi%20Chaang%20Coffee%20Chiang%20Rai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Doi%20Chaang%20Coffee%20Chiang%20Rai&hl=th) |
 | **崔峰茶園下午茶**<br>Choui Fong Tea Plantation<br>ไร่ชาฉุยฟง | 咖啡甜點 | — | 抹茶甜點、烏龍茶 | 100～250 | 約08:30-17:30 | 清萊茶園版 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Choui%20Fong%20Tea%20Plantation%20Chiang%20Rai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Choui%20Fong%20Tea%20Plantation%20Chiang%20Rai&hl=th) |
-| **Paa Suk 泰北米線**<br>Nam Ngiao Paa Suk | Khao Soi/麵 | — | Khanom Jeen Nam Ngiao | 40～80 | 早上～下午 | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Nam%20Ngiao%20Paa%20Suk%20Chiang%20Rai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Nam%20Ngiao%20Paa%20Suk%20Chiang%20Rai&hl=th) |
-| **Lu Lam 清萊老店**<br>Lu Lam | 泰北菜 | — | 泰北菜、泰式家常菜 | 80～200 | 午餐＋晚餐 | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Lu%20Lam%20Chiang%20Rai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Lu%20Lam%20Chiang%20Rai&hl=th) |
+| **Paa Suk 泰北米線**<br>Nam Ngiao Paa Suk<br>น้ำเงี้ยวป้าสุข | Khao Soi/麵 | — | Khanom Jeen Nam Ngiao | 40～80 | 約07:00-16:00 | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Nam%20Ngiao%20Paa%20Suk%20Chiang%20Rai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Nam%20Ngiao%20Paa%20Suk%20Chiang%20Rai&hl=th) |
+| **Lu Lam 清萊老店**<br>Lu Lam<br>หลู้ลำ | 泰北菜 | — | 泰北菜、泰式家常菜 | 80～200 | 10:30-21:00 | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Lu%20Lam%20Chiang%20Rai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Lu%20Lam%20Chiang%20Rai&hl=th) |
 
-## 清邁（位置未確認）
+## 路途中
 
 | 店名 | 類型 | 米其林 | 必點 | 價格(銖/人) | 營業時間 | 行程 | 地圖 |
 |---|---|---|---|---|---|---|---|
-| **Nam Ngiao Yong 泰北米線**<br>Nam Ngiao Yong | Khao Soi/麵 | ⭐ 米其林推薦 | Khanom Jeen Nam Ngiao 番茄排骨湯米線 | 50～80 | 早上～中午 | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Nam%20Ngiao%20Yong%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Nam%20Ngiao%20Yong%20Chiang%20Mai&hl=th) |
-| **Neng 甕烤豬**<br>Neng Earthen Jar Roast Pork | 泰北菜 | — | 甕烤豬、Nam Tok Moo、泰北香腸 | 80～150 | 午餐～傍晚 | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Neng%20Earthen%20Jar%20Roast%20Pork%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Neng%20Earthen%20Jar%20Roast%20Pork%20Chiang%20Mai&hl=th) |
-| **Here Joi 牛肉麵**<br>Here Joi Beef Noodle | Khao Soi/麵 | 🍽️ 必比登 | 牛肉麵 | 50～200 | 請查 Google 地圖 | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Here%20Joi%20Beef%20Noodle%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Here%20Joi%20Beef%20Noodle%20Chiang%20Mai&hl=th) |
-| **Bat Queue 粥＆粿汁**<br>Jok Guay Jab Tom Sen (Bat Queue) | Khao Soi/麵 | 🍽️ 必比登 | 粥、粿汁 | 50～200 | 請查 Google 地圖 | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Jok%20Guay%20Jab%20Tom%20Sen%20%28Bat%20Queue%29%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Jok%20Guay%20Jab%20Tom%20Sen%20%28Bat%20Queue%29%20Chiang%20Mai&hl=th) |
-| **孔敬烤豬頸肉**<br>Khon Kaen Grilled Pork Neck | 小吃/市場 | 🍽️ 必比登 | 烤豬頸肉、糯米飯 | 50～200 | 請查 Google 地圖 | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Khon%20Kaen%20Grilled%20Pork%20Neck%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Khon%20Kaen%20Grilled%20Pork%20Neck%20Chiang%20Mai&hl=th) |
-| **Khun Jaeng 粿條**<br>Khun Jaeng Guay Tiew Pak Mor Kao Wang | Khao Soi/麵 | 🍽️ 必比登 | Pak Mor 蒸粿條 | 50～200 | 請查 Google 地圖 | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Khun%20Jaeng%20Guay%20Tiew%20Pak%20Mor%20Kao%20Wang%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Khun%20Jaeng%20Guay%20Tiew%20Pak%20Mor%20Kao%20Wang%20Chiang%20Mai&hl=th) |
-| **Leng 粉紅湯粿條 Yentafo**<br>Leng Yentafo | Khao Soi/麵 | 🍽️ 必比登 | Yentafo 粉紅湯粿條 | 50～200 | 請查 Google 地圖 | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Leng%20Yentafo%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Leng%20Yentafo%20Chiang%20Mai&hl=th) |
-| **Busarin Cuisine**<br>Busarin Cuisine | 小吃/市場 | 🍽️ 必比登 | 泰式家常菜 | 50～200 | 請查 Google 地圖 | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Busarin%20Cuisine%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Busarin%20Cuisine%20Chiang%20Mai&hl=th) |
-| **Dan 海南雞飯（San Sai）**<br>Dan Chicken Rice (San Sai) | 小吃/市場 | 🍽️ 必比登 | 海南雞飯 | 50～200 | 請查 Google 地圖 | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Dan%20Chicken%20Rice%20%28San%20Sai%29%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Dan%20Chicken%20Rice%20%28San%20Sai%29%20Chiang%20Mai&hl=th) |
-| **Saiyut & Doctor Sai 皇家泰菜**<br>Saiyut & Doctor Sai Kitchen | 泰北菜 | 🍽️ 必比登 | 皇家前菜拼盤 | 200～400 | 請查 Google 地圖 | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Saiyut%20%26%20Doctor%20Sai%20Kitchen%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Saiyut%20%26%20Doctor%20Sai%20Kitchen%20Chiang%20Mai&hl=th) |
-| **Rasik 新派泰菜**<br>Rasik Local Kitchen | 精緻/氣氛 | 🍽️ 必比登 | 烤牛骨髓配南薑醬 | 300～500 | 請查 Google 地圖 | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Rasik%20Local%20Kitchen%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Rasik%20Local%20Kitchen%20Chiang%20Mai&hl=th) |
-| **CHAWEE 私房泰菜**<br>CHAWEE | 精緻/氣氛 | 🍽️ 必比登 | 季節菜單、家傳食譜 | 300～500 | 請查 Google 地圖 | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=CHAWEE%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=CHAWEE%20Chiang%20Mai&hl=th) |
-| **Magnolia 新派泰菜**<br>Magnolia Cafe | 精緻/氣氛 | 🍽️ 必比登 | 風乾魷魚配花生醬、烤豬頸肉 | 250～450 | 請查 Google 地圖 | — | [📍 英文](https://www.google.com/maps/search/?api=1&query=Magnolia%20Cafe%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Magnolia%20Cafe%20Chiang%20Mai&hl=th) |
+| **Cabbages & Condoms 中途餐廳**<br>Cabbages and Condoms Wiang Pa Pao<br>แคบเบจเอ็นคอนดอมส์ เวียงป่าเป้า | 泰北菜 | — | 泰北菜、家常炒菜 | 150～300 | 約09:00-17:00（出發前確認） | 清邁↔清萊 中途午餐 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Cabbages%20and%20Condoms%20Wiang%20Pa%20Pao%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Cabbages%20and%20Condoms%20Wiang%20Pa%20Pao%20Chiang%20Mai&hl=th) |
+| **Baan Wiang 咖啡早餐**<br>Baan Wiang Cafe<br>บ้านเวียง คาเฟ่ | 咖啡甜點 | — | 粥、咖啡、早餐 | 80～200 | 約07:00-17:00（出發前確認） | 清邁→清萊 早點/休息 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Baan%20Wiang%20Cafe%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Baan%20Wiang%20Cafe%20Chiang%20Mai&hl=th) |
+| **Nut Pob 咖啡（媽卡江）**<br>Nut Pob Coffee Cafe<br>นัท ป๊อบ คอฟฟี่ | 咖啡甜點 | — | 咖啡、輕食 | 60～150 | 約08:00-17:00（出發前確認） | 媽卡江休息站 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Nut%20Pob%20Coffee%20Cafe%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Nut%20Pob%20Coffee%20Cafe%20Chiang%20Mai&hl=th) |
 
 ## 資料來源
 
