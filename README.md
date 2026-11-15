@@ -1,6 +1,6 @@
 # 清邁・清萊美食總圖
 
-清邁・清萊美食清單，共 **76 家**：米其林必比登 17 家、米其林推薦 4 家，其他是在地人氣店、市場和咖啡。
+清邁・清萊美食清單，共 **77 家**：米其林必比登 17 家、米其林推薦 4 家，其他是在地人氣店、市場和咖啡。
 
 - 🌐 **網址**：https://fdz59q7ggf-commits.github.io/chiang-mai-food/
 - 🗺️ **互動總地圖**：打開 [`index.html`](index.html)，可以依區域、類型、米其林篩選；金框標記＝米其林
@@ -75,6 +75,7 @@
 | **Magnolia 新派泰菜**<br>Magnolia Cafe<br>แมกโนเลีย คาเฟ่ | 精緻/氣氛 | 🍽️ 必比登 | 風乾魷魚配花生醬、烤豬頸肉 | 250～450 | 約17:00-22:00（資料不一，建議先訂位） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Magnolia%20Cafe%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Magnolia%20Cafe%20Chiang%20Mai&hl=th) |
 | **Big Big Shabu 海鮮吃到飽（Sri Phum 古城東北）**<br>Big Big Shabu (Sri Phum)<br>บิ๊กบิ๊ก ชาบู | 海鮮自助 | — | 活蝦、生蠔、火鍋燒烤吃到飽 | 220～399 | 約16:00-04:00 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Big%20Big%20Shabu%20%28Sri%20Phum%29%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Big%20Big%20Shabu%20%28Sri%20Phum%29%20Chiang%20Mai&hl=th) |
 | **Big Big Shabu 海鮮吃到飽（Santitham／Chang Phuak Soi 4）**<br>Big Big Shabu (Santitham)<br>บิ๊กบิ๊ก ชาบู | 海鮮自助 | — | 活蝦、生蠔、火鍋燒烤吃到飽 | 220～399 | 約16:00-04:00（出發前確認） | [📍 英文](https://www.google.com/maps/search/?api=1&query=Big%20Big%20Shabu%20%28Santitham%29%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Big%20Big%20Shabu%20%28Santitham%29%20Chiang%20Mai&hl=th) |
+| **Big Big Shabu 海鮮吃到飽（Atsadathon 阿薩塔通）**<br>Big Big Shabu (Atsadathon)<br>บิ๊กบิ๊ก ชาบู - อัษฎาธร | 海鮮自助 | — | 活蝦、生蠔、火鍋燒烤吃到飽 | 399 | 每日 16:00-04:00 | [📍 英文](https://www.google.com/maps/search/?api=1&query=Big%20Big%20Shabu%20%28Atsadathon%29%20Chiang%20Mai&hl=en)<br>[🛺 泰文](https://www.google.com/maps/search/?api=1&query=Big%20Big%20Shabu%20%28Atsadathon%29%20Chiang%20Mai&hl=th) |
 
 ## 古城南/Wualai
 
